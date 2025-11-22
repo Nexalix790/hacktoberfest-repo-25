@@ -6,6 +6,7 @@ while True:
     except ValueError:                                  # Handle invalid input   
         print("Invalid input. Please enter a number.")  # Prompt user again
 
+
 # ------ Diamond Pattern ------ #
 for i in range(1, rows+1):
     print((rows-i)*" ", end="")
